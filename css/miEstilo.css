@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contenido{
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color:#1b4d2e;
+}
+
+
+#yersey1{
+    background-image: url('../Images/Jersey2007-2008.jpg');
+    align-items: center;
+}
+
+#yersey2{
+    background-image: url('../Images/Jersey2009-2010.jpg');
+    align-items: center;
+}
+
+#yersey3{
+    background-image: url('../Images/Jersey2010-2011.webp');
+    align-items: center;
+}
+
+#yersey4{
+    background-image: url('../Images/Jersey2011-2012.jpg');
+    align-items: center;
+}
+
+#yersey5{
+    background-image: url('../Images/Jersey2012-2013.jpg');
+    align-items: center;
+}
+
+#yersey6{
+    background-image: url('../Images/Jersey2013-2014.jpg');
+    align-items: center;
+}
+
+#yersey7{
+    background-image: url('../Images/Jersey2014-2015.jpg');
+    align-items: center;
+}
+
+#yersey8{
+    background-image: url('../Images/Jersey2015-2016.jpg');
+    align-items: center;
+}
+
+#yersey9{
+    background-image: url('../Images/Jersey2016-2017.jpg');
+    align-items: center;
+}
+
+#yersey10{
+    background-image: url('../Images/Jersey2017-2018.jpg');
+    align-items: center;
+} 
+#yersey11{
+    background-image: url('../Images/Jersey2018-2019.jpg');
+    align-items: center;
+} 
+
+/*Menu*/
+nav{
+    position: fixed;
+    left: 200px;
+    top: 30%;
+    z-index: 100;
+    transition: 0.4s ease;
+    transform: translateX(-50%);
+}
+ 
+ul{
+    list-style: none;
+}
+ 
+ul a{
+    display: block;
+    color: antiquewhite;
+    text-decoration: none;
+    border: 1px solid antiquewhite;
+    padding: 10px 0;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    transition: 0.4s ease;
+}
+ 
+a:hover{
+    transform: translateX(10%);
+    background-color: antiquewhite;
+    color: black;
+    border: none;
+}
+ 
